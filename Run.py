@@ -1,3 +1,4 @@
+# بتعمل اي هنا يخماط 😂😂😂
 import os
 
 speed = os.getenv("SPEED")
@@ -7,5 +8,5 @@ if speed:
         file.write(speed)
     os.system("python hamster.py")
 else:
-    print("متغير SPEED غير معرف في البيئة.")
+    print("فار SPEED غير موجود .")
 #speed = @tcrep1
