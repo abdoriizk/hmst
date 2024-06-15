@@ -2,3 +2,4 @@ requests
 colorama
 python-cfonts
 flask
+flask-restful
