@@ -10,8 +10,8 @@ services:
     name: "⁽ ᴛᴄʀᴇᴘ ₎ 🍿"
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python3 ser.py python Run.py &
-    region: frankfurt
+    startCommand: python3 ser.py & python Run.py
+    region: frankfurt 
     envVars:
       - key: bot
         sync: false
