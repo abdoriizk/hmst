@@ -110,12 +110,12 @@ def main():
         if response.status_code == 200:
         	coin = response.json()["clickerUser"]["balanceCoins"]
         	print(g+f' ➜ Done Add 200 coin✅ | {coin} BY: @X1_H9 >> @tcrep1 ')
-        	tlg = f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={acc}&text=•  ➜ Done Add 200 coin✅ | {coin} BY: @X1_H9 >> @tcrep1 "
+        	tlg = f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={acc}&text=•  ➜ Done Add 200 coin✅ | {coin} BY: @B8BS8 "
         	tlg_params = {"parse_mode": "HTML"}
         	i = requests.post(tlg, params=tlg_params)
         else:
         	print(b+f' ➜ ERROR ADD COIN')
-        	tlg = f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={acc}&text=•  ➜ ERROR ADD COIN | {coin} BY:@X1_H9 >> @tcrep1 "
+        	tlg = f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={acc}&text=•  ➜ ERROR ADD COIN | {coin} BY:@B8BS8 "
         	tlg_params = {"parse_mode": "HTML"}
         	i = requests.post(tlg, params=tlg_params)
         time.sleep(25)
